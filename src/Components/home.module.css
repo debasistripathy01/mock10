@@ -1,0 +1,28 @@
+.breed{
+    display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1rem;
+  margin-left: 2px;
+  justify-content: center;
+  margin: auto;
+  
+}
+
+.breed>h2{
+    margin-left: 1%;
+    background-color: rgb(176, 231, 49);
+    color: black;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+
+.box{
+    width: 100%;
+    border-radius: 5%;
+    justify-content: center;
+  margin: auto;
+    background-color: aqua;
+    margin-top: 2rem;
+}
