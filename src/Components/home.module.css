@@ -5,6 +5,8 @@
   margin-left: 2px;
   justify-content: center;
   margin: auto;
+  color: black;
+  cursor: pointer;
   
 }
 
@@ -12,6 +14,7 @@
     margin-left: 1%;
     background-color: rgb(176, 231, 49);
     color: black;
+
     text-align: center;
     font-size: 20px;
 
@@ -21,6 +24,20 @@
 .box{
     width: 100%;
     border-radius: 5%;
+    justify-content: center;
+  margin: auto;
+    background-color: aqua;
+    margin-top: 2rem;
+}
+
+.puppy{
+    display: "flex";
+    flex-wrap: "wrap";
+    justify-content: "center";
+}
+
+.image{
+    
     justify-content: center;
   margin: auto;
     background-color: aqua;
